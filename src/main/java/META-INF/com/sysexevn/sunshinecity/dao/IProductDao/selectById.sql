@@ -1,1 +1,1 @@
-select * from product where id = /*id*/1
+select * from product where id = /*id*/0

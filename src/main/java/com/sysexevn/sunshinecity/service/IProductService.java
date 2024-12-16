@@ -14,5 +14,7 @@ public interface IProductService {
 	
 	ProductDto update(ProductDto pDto);
 	
+	ProductDto updateNewPrice(ProductDto newProductDto);
+	
 	void delete(ProductDto pDto);
 }

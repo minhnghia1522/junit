@@ -1,2 +1,2 @@
 DELETE FROM public.product
-WHERE id= /*p.id*/1
+WHERE id= /*p.id*/0

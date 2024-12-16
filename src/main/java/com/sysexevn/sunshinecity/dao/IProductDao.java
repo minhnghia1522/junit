@@ -31,7 +31,12 @@ public interface IProductDao {
 	@Update
 	public Result<Product> update(Product p);
 
+	@Update
+	public Result<Product> updateNewPrice(Product p);
+
 	@Delete(sqlFile = true)
 	public Result<Product> delete(Product p);
+	
+	
 
 }
